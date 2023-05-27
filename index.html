@@ -4,16 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
     <title>PortFolio</title>
+    <style>
+        *{
+            background-color: #8294C4;
+            font-family: 'Libre Baskerville', serif;;
+        }
+        .title{
+            font-weight: bolds;
+            background-color: #DBDFEA;
+            padding: 10px;
+            font-size: 4rem;
+        }
+        .heading-two{
+            background-color: #DBDFEA;
+            padding: 10px;
+            font-size: 3rem;
+        }
+        .paragraph{
+            background-color: #DBDFEA;
+            padding: 10px;
+            font-size: large;
+        }
+        .link{
+            background-color: #ACB1D6;
+            padding: 10px;
+            text-decoration: overline;
+            color: black;
+            border-radius: 10px;
+        }
+        .picture{
+            border: 3px solid black;
+            border-radius: 5px;
+            min-width: 300px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Tanvir Badsha's PortFolio</h1>
-    <h2>I'm a Web Developer</h2>
+    <h1 class="title">Tanvir Badsha's PortFolio</h1>
+    <h2 class="heading-two">I'm a Web Developer</h2>
+    <p class="paragraph">Here i am showing off some of my projects. If you click into the link you will go to the actual project and below the link a picture has been attacked to give a preview about the layout.</p>
     <hr />
-    <h3><a href="./public/movie-ranking.html">Movie Ranking Project</a></h3>
-    <img src="./assets/images/movie-ranking.png" alt="movie-project" height="200px">
-    <h3><a href="./public/birthday-invite.html">Birthday Invite Project</a> <br> </h3>
-    <img src="./assets/images/birthday-card_project.png" alt="birthday-project" height="200pxs"> <br>
+    <h3><a class="link" href="./public/movie-ranking.html">Movie Ranking Project</a></h3>
+    <img class="picture" src="./assets/images/movie-ranking.png" alt="movie-project" height="200px">
+    <h3><a class="link" href="./public/birthday-invite.html">Birthday Invite Project</a> <br> </h3>
+    <img class="picture" src="./assets/images/birthday-card_project.png" alt="birthday-project" height="200pxs"> <br>
     <a href="./public/about.html">About Me</a>
     <a href="./public/contact.html">Contact Me</a>
 </body>
